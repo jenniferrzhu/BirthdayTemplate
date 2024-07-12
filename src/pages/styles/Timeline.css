@@ -1,0 +1,41 @@
+h1 {
+    font-family: Georgia, serif;
+    color: rgb(134, 200, 247);
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 24px;
+    gap: 32px;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    border-radius: 4px;
+    background-color: rgb(206, 232, 250);
+    padding: 16px;
+    width: 300px;
+}
+
+.card img {
+    display: block;  
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;  
+}
+
+.arrow {
+    color: rgb(133, 133, 133);
+    margin-bottom: 24px;
+}

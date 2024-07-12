@@ -17,14 +17,11 @@ const Home: React.FC = () => {
 
         const actualPasscode = '1234';
 
-        if (passcode === actualPasscode) {
-            // Handle correct passcode (e.g., navigate to next page)
+        if (passcode === actualPasscode) { 
             console.log('yay!');
             setError('');
-            navigate('/timeline');
-            // Add logic here to navigate or perform actions upon correct passcode
-        } else {
-            // Handle incorrect passcode
+            navigate('/timeline'); 
+        } else { 
             setError('you got that wrong?! try again.');
             setPasscode('');
         }
