@@ -1,0 +1,59 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.content-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.car-image {
+  width: auto;
+  height: 300px;  
+}
+
+.passcode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.passcode-input {
+  text-align: center;
+  width: 160px;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keypad-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.error-message {
+  color: red;
+}
