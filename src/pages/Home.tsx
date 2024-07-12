@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             setError('');
             navigate('/timeline'); 
         } else { 
-            setError('you got that wrong?! try again.');
+            setError('Password invalid');
             setPasscode('');
         }
     };
@@ -44,30 +44,30 @@ const Home: React.FC = () => {
                 </div>
 
                 <div className="passcode-container">
-                    <h2>Enter Passcode</h2>
+                    <h2>Enter Password</h2>
                     <form onSubmit={handleSubmit}>
                         <div className="input-container">
                             <input
                                 type="password"
                                 value={passcode}
                                 onChange={(e) => setPasscode(e.target.value)}
-                                placeholder="Hint: first date"
+                                placeholder="insert hint"
                                 className="passcode-input"
                             />
                         </div>
                         <div className="keypad-container">
-                            <button type="button" onClick={() => handleButtonClick('1')}>1</button>
-                            <button type="button" onClick={() => handleButtonClick('2')}>2</button>
-                            <button type="button" onClick={() => handleButtonClick('3')}>3</button>
-                            <button type="button" onClick={() => handleButtonClick('4')}>4</button>
-                            <button type="button" onClick={() => handleButtonClick('5')}>5</button>
-                            <button type="button" onClick={() => handleButtonClick('6')}>6</button>
-                            <button type="button" onClick={() => handleButtonClick('7')}>7</button>
-                            <button type="button" onClick={() => handleButtonClick('8')}>8</button>
-                            <button type="button" onClick={() => handleButtonClick('9')}>9</button>
-                            <button type="button" onClick={handleClear}>Clear</button>
-                            <button type="button" onClick={() => handleButtonClick('0')}>0</button>
-                            <button type="submit">Submit</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('1')}>1</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('2')}>2</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('3')}>3</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('4')}>4</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('5')}>5</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('6')}>6</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('7')}>7</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('8')}>8</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('9')}>9</button>
+                            <button className="buttons" type="button" onClick={handleClear}>Clear</button>
+                            <button className="buttons" type="button" onClick={() => handleButtonClick('0')}>0</button>
+                            <button className="buttons" type="submit">Submit</button>
                         </div>
                     </form>
                     {error && <p className="error-message">{error}</p>} 

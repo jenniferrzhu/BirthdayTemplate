@@ -46,7 +46,7 @@ const Timeline = () => {
                     </a>
                 </div>
             </div>
-            <a className="arrow">
+            <a className="arrow" href="/question">
                 click me! there's more!
             </a>
         </div>

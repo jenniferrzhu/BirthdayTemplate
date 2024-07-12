@@ -4,6 +4,15 @@ h1 {
     font-size: 50px;
 }
 
+h3 {
+    font-family: Georgia, serif;
+    color: rgb(68, 173, 248); 
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -36,6 +45,6 @@ h1 {
 }
 
 .arrow {
-    color: rgb(133, 133, 133);
+    color: rgb(68, 173, 248); 
     margin-bottom: 24px;
 }
