@@ -10,37 +10,37 @@ const Timeline = () => {
             <h1>~ our timeline ~</h1> 
             <div className="cards">
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>
                 </div>
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>
                 </div>
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>
                 </div>
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>
                 </div>
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>
                 </div>
                 <div className="card">
-                    <a> 
+                    <a href="/page-template"> 
                         <img src={replaceImg} />
                         <h3>mm/dd/yyyy</h3>
                     </a>

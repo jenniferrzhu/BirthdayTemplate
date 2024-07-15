@@ -1,0 +1,25 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+} 
+
+p {
+    font-family: Georgia, serif;
+    color: rgb(31, 120, 183);
+    font-weight: 300; 
+    text-align: center;
+    width: calc(90% - 24px);
+}
+
+.back {
+    color: rgb(195, 207, 215); 
+    font-size: 15px;
+    margin-bottom: 24px;
+}
