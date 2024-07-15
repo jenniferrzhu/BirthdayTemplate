@@ -12,14 +12,24 @@ h3 {
 
 p {
     font-family: Georgia, serif;
+    font-size: 16px;
     color: rgb(31, 120, 183);
     font-weight: 300; 
-    text-align: center;
+    text-align: left;
     width: calc(90% - 24px);
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-indent: 45px;
+
 }
 
 .back {
     color: rgb(195, 207, 215); 
     font-size: 15px;
     margin-bottom: 24px;
+}
+
+.caption {
+    font-size: 15px;
 }
