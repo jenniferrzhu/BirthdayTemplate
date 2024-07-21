@@ -19,7 +19,7 @@ const Question = () => {
 
     const handleYesClick = () => {
         setYesPressed(true);
-        navigate('/timeline'); 
+        navigate('/letter'); 
     };
 
     const getNoButtonText = () => {

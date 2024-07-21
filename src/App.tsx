@@ -9,6 +9,7 @@ import PageTemplate3 from './pages/PageTemplate3';
 import PageTemplate4 from './pages/PageTemplate4';
 import PageTemplate5 from './pages/PageTemplate5';
 import PageTemplate6 from './pages/PageTemplate6';
+import Letter from './pages/Letter';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/page-template4" element={<PageTemplate4 />} />
         <Route path="/page-template5" element={<PageTemplate5 />} />
         <Route path="/page-template6" element={<PageTemplate6 />} />
+        <Route path="/letter" element={<Letter />} />
       </Routes>
     </Router>
   );
