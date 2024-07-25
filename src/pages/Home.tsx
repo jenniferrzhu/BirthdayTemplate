@@ -30,11 +30,7 @@ const Home: React.FC = () => {
     const handleClear = () => {
         setPasscode('');
         setError('');
-    };
-
-    const handleGoBack = () => {
-        navigate(-1); // Go back to previous page
-    };
+    }; 
 
     return (
         <div className="center-container"> 
